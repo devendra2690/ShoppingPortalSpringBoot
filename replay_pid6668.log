@@ -1,0 +1,15 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 128 ciObject found
+ciMethod java/lang/Object hashCode ()I 3073 1 384 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 2049 1 17322 0 -1
+ciMethod java/util/HashMap hash (Ljava/lang/Object;)I 4097 1 264450 0 160
+ciMethod java/util/HashMap remove (Ljava/lang/Object;)Ljava/lang/Object; 3073 1 6629 0 1152
+ciMethod java/util/HashMap removeNode (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/util/HashMap$Node; 57 1 5256 0 1248
+ciMethod java/util/HashMap afterNodeRemoval (Ljava/util/HashMap$Node;)V 2049 1 1280 0 0
+ciMethod java/util/LinkedHashMap afterNodeRemoval (Ljava/util/HashMap$Node;)V 2049 1 5427 0 0
+ciMethod java/util/HashMap$TreeNode getTreeNode (ILjava/lang/Object;)Ljava/util/HashMap$TreeNode; 0 0 1 0 -1
+ciMethod java/util/HashMap$TreeNode removeTreeNode (Ljava/util/HashMap;[Ljava/util/HashMap$Node;Z)V 0 0 1 0 -1
+ciMethod java/util/HashSet remove (Ljava/lang/Object;)Z 2529 1 5436 0 -1
+ciMethodData java/util/HashMap hash (Ljava/lang/Object;)I 2 264450 orig 264 88 131 78 8 0 0 0 0 32 18 212 3 0 0 0 0 176 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 17 56 32 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 104 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 13 0x10007 0x406fe 0x38 0x5 0x50003 0x5 0x48 0x90005 0xf105 0x5f751a0 0x2e202 0x464a420 0xe7b oops 2
